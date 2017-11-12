@@ -15,8 +15,8 @@ import org.junit.runners.MethodSorters;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public abstract class EntityDesignTestBase extends TestBase {
 
-  // public static final int MASS_COUNT = 100000;
-  // public static final int FIND_COUNT = MASS_COUNT / 1000;
+  public static final int MASS_COUNT = 100000;
+  public static final int FIND_COUNT = MASS_COUNT / 1000;
 
   protected abstract Class<? extends SingleIdEntity> getEntityClass();
 
